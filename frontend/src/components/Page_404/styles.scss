@@ -1,0 +1,53 @@
+.container-redirection{
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ margin-top: 0;
+ height: 100%;
+ background-image:url('src/assets/images/opacité.png');
+ background-position: center;
+ background-size: cover;
+ background-attachment:center;
+}
+
+#root{
+  height: 100vh;
+}
+
+.error-status-title{
+  padding-top: 10px;
+  margin-bottom: 300px;
+  font-size: 8rem;
+  text-align: center;
+}
+
+.container-redirection{
+  font-size: 5rem;
+  text-align: center;
+  
+}
+
+.redirection-para {
+  font-size: 1.5rem;
+  padding-bottom: 5rem;
+}
+
+.redirection-link{
+  display: block;
+  margin: 5rem auto;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  border: 2px solid #72a119;
+  background-color: #72a119;
+  border-radius: 1rem;
+}
+
+.redirection-link:hover{
+  border: 2px solid #72a119;
+  color: #72a119;
+  background-color: #ffffff;
+}

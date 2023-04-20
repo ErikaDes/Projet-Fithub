@@ -1,0 +1,224 @@
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  width: 100%;
+  margin-top: 0;
+  background-color: #ffefcb;
+  
+ }
+ 
+ .link-nav ul{
+   display: flex;
+   align-items: center;
+   gap: 1.5rem;
+   margin-right: 2rem ;
+ }
+ 
+ .link-nav ul li a{
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+ }
+ .link-nav ul li a:hover{
+     color: #265202 ;
+ }
+ 
+ .logo-nav .link-logo-nav {
+     text-decoration: none;
+     color: black;
+     padding: 2rem;
+     
+ }
+ 
+ .logo-nav .link-logo-nav img{
+     width: 7rem;
+     height: 7rem;
+     object-fit: cover;
+     border-radius: 50%;
+ }
+ 
+ .login-nav{
+     display: flex;
+     align-items: center;
+     gap: 0.3rem;
+     cursor: pointer;
+     position: relative;
+ 
+ 
+ }
+ .login-nav .form-login{
+     position: absolute;
+     top: 2rem;
+     right: 1.5rem;
+     background-color: #5c4506;
+     border-radius: 0.5rem;
+ }
+ 
+ .login-nav .form-login label{
+     color: white;
+ }
+ 
+ .login-nav .form-login .form-group-password {
+     margin-bottom: 0;
+ }
+ 
+ .login-nav .form-login input[type="email"],
+ .login-nav .form-login input[type="password"]{
+     font-size: 1.3rem;
+     padding: 0.5rem 0.8rem;
+     border-radius: 0.8rem;
+     outline: none;
+     border: 1px solid #494848;
+ 
+ 
+ }
+ .login-nav .form-login .passwordforget{
+     color: #c0bdbd;
+     font-size: 0.8rem;
+     margin-left: 1.5rem;
+     margin-top: -5px;
+     margin-bottom: 7px;
+     display: block;
+     
+ 
+ }
+ 
+ .login-nav .form-login .passwordforget:hover{
+     color: #dad8d8;
+ }
+ 
+ 
+ .login-nav .form-login .form-group{
+     margin: 0.7rem;
+     margin-bottom: 0.7rem;
+ }
+ 
+ .login-nav .form-login{
+     display: flex;
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 0.5rem;
+ }
+
+ .btn-submit{
+    margin-bottom:0.7rem;
+ }
+ 
+ .login-nav .form-login .btn-submit button{
+     padding: 0.5rem 1.5rem;
+     border-radius: 0.8rem;
+     font-weight: bold;
+     border: none;
+     cursor: pointer;
+ }
+ 
+ .login-nav{
+     font-weight: bold ;
+ }
+ 
+ i {
+      font-size: 2rem;
+ }
+
+ i:hover{
+     color: #265202 ;
+ }
+
+ .welcome-message{
+     display: flex;
+     align-items: center;
+     font-size: 2.5rem;
+      font-weight: bold;
+      color : #F0F;
+    
+ }
+
+ h1{
+  font-size: 1.7rem;
+  text-align: center;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+ }
+
+ .burger{
+     display: none;
+ }
+
+ .link-nav-responsive{
+    display: none;
+
+ }
+ 
+
+ @media screen and (max-width :768px ) {
+    .link-nav{
+        display:none;
+    }
+
+    .burger{
+        display: block;
+        margin-right: 2rem;
+    }
+
+    .link-nav-responsive{
+        position : fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+     }
+
+     .link-nav-item{
+        margin-top: 0.5rem;
+        margin: 0.6rem;
+       
+     }
+
+     .form-responsive{
+        //display: flex;
+       // justify-content: center;
+       // align-items: center;
+        //flex-direction: column;
+        text-align: center;
+        background-color: #ffffff;
+        padding: 1rem;
+        border-radius: 1.3rem;
+        position: relative;
+        top: -5rem;
+     }
+
+     .close-button{
+       display: flex;
+      justify-content: flex-end;
+      margin-bottom:0;
+     }
+
+     .form-login{
+        position:absolute;
+        background-color: #5c4506;
+        border-radius: 0.5rem;
+        width: 250px;
+        transform: translate(28%, 8%)
+        
+     }
+
+  #email{
+    width: 100%;
+  }
+
+  #password{
+    width: 100%;
+  }
+
+ }
+
+
